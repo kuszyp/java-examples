@@ -4,44 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: remove unused properties from application.properties">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.markdownlint.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/javaExamples.shared-conventions.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springData/DatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springData/SpringDataJpaExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springData/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springData/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functional-programming/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/filteringIterator/FilteringIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/filteringIterator/FilteringIteratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/jdbc/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/jdbc/src/main/java/pl/myapp/java/database/jdbc/JdbcExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/jdbc/JdbcExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spring-jdbc/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spring-jdbc/src/main/java/pl/myapp/java/database/springjdbc/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springJdbc/DatabaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spring-jdbc/src/main/java/pl/myapp/java/database/springjdbc/SpringJdbcExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springJdbc/SpringJdbcExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spring-jdbc/src/main/java/pl/myapp/java/database/springjdbc/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springJdbc/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spring-jdbc/src/main/java/pl/myapp/java/database/springjdbc/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springJdbc/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spring-jdbc/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: project refactor to use Gradle instead of Maven">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736222178538</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chore: project refactor to use Gradle instead of Maven">
+      <option name="closed" value="true" />
+      <created>1754428451228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754428451228</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +226,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: add sample database integrations in java-examples" />
     <MESSAGE value="chore: remove unused properties from application.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: remove unused properties from application.properties" />
+    <MESSAGE value="chore: project refactor to use Gradle instead of Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: project refactor to use Gradle instead of Maven" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
