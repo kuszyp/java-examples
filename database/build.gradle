@@ -1,0 +1,11 @@
+plugins {
+  id("javaExamples.shared-conventions")
+}
+
+dependencies {
+  implementation(libs.jakarta.persistence)
+  implementation(libs.spring.context)
+  implementation(libs.spring.data.jpa)
+  implementation(libs.spring.data.jdbc)
+  implementation(libs.spring.jdbc)
+}
