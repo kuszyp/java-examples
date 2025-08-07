@@ -1,4 +1,4 @@
-package pl.myapp.java.concurrency.memory;
+package pl.myapp.java.examples.concurrency.memory;
 
 import java.time.Instant;
 

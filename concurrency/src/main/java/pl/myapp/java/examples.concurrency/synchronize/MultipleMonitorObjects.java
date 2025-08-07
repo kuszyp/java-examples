@@ -1,4 +1,4 @@
-package pl.myapp.java.concurrency.synchronize;
+package pl.myapp.java.examples.concurrency.synchronize;
 
 /*
   Because these two methods use different monitor objects, they will not mutually exclude threads from entering them.

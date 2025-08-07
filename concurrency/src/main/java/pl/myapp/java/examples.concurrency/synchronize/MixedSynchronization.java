@@ -1,4 +1,4 @@
-package pl.myapp.java.concurrency.synchronize;
+package pl.myapp.java.examples.concurrency.synchronize;
 
 /*
  This two methods are not synchronized using the same monitor object.

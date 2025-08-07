@@ -1,4 +1,4 @@
-package pl.myapp.java.concurrency.virtualthread;
+package pl.myapp.java.examples.concurrency.virtualthread;
 
 import java.util.ArrayList;
 import java.util.List;

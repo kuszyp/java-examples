@@ -1,4 +1,4 @@
-package pl.myapp.java.concurrency.synchronize;
+package pl.myapp.java.examples.concurrency.synchronize;
 
 public class StaticSynchronizedExchanger {
     private static Object object = null;

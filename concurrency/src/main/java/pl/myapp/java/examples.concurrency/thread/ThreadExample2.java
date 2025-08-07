@@ -1,4 +1,4 @@
-package pl.myapp.java.concurrency.thread;
+package pl.myapp.java.examples.concurrency.thread;
 
 public class ThreadExample2 {
     public static class MyThread extends Thread {

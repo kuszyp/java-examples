@@ -1,4 +1,4 @@
-package pl.myapp.java.concurrency.thread;
+package pl.myapp.java.examples.concurrency.thread;
 
 public class ThreadExample8 {
     public static class StoppableRunnable implements Runnable {

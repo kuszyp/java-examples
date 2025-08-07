@@ -1,4 +1,4 @@
-package pl.myapp.java.concurrency.synchronize;
+package pl.myapp.java.examples.concurrency.synchronize;
 
 /*
   There are some classes that should not be used as a monitor object: strings, primitive types.

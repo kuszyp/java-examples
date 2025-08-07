@@ -4,9 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: project refactor to use Gradle instead of Maven">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="docs: add README draft with toc">
+      <change afterPath="$PROJECT_DIR$/concurrency/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/javaExamples.shared-conventions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/javaExamples.shared-conventions.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/memory/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/memory/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/memory/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/memory/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/memory/SeparateObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/memory/SeparateObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/memory/SharedObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/memory/SharedObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/MixedSynchronization.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/MixedSynchronization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/MultipleMonitorObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/MultipleMonitorObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/Reentrance.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/Reentrance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/SharedMonitorObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SharedMonitorObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/SharedMonitorObjectMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SharedMonitorObjectMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/StaticSynchronizedExchanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/StaticSynchronizedExchanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/SyncCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SyncCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/SyncCounterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SyncCounterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/SynchronizedExchanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedExchanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/SynchronizedExchangerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedExchangerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/synchronize/SynchronizedLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/thread/ThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/thread/ThreadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/thread/ThreadExample10.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/thread/ThreadExample10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/thread/ThreadExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/thread/ThreadExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/thread/ThreadExample7.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/thread/ThreadExample7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/thread/ThreadExample8.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/thread/ThreadExample8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/thread/ThreadExample9.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/thread/ThreadExample9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/virtualthread/VirtualThreadExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/virtualthread/VirtualThreadExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/concurrency/virtualthread/VirtualThreadExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/virtualthread/VirtualThreadExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754428451228</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docs: add README draft with toc">
+      <option name="closed" value="true" />
+      <created>1754429354686</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754429354686</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +260,8 @@
     <MESSAGE value="chore: add sample database integrations in java-examples" />
     <MESSAGE value="chore: remove unused properties from application.properties" />
     <MESSAGE value="chore: project refactor to use Gradle instead of Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: project refactor to use Gradle instead of Maven" />
+    <MESSAGE value="docs: add README draft with toc" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: add README draft with toc" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

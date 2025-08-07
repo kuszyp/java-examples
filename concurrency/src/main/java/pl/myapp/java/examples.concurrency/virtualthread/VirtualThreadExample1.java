@@ -1,4 +1,4 @@
-package pl.myapp.java.concurrency.virtualthread;
+package pl.myapp.java.examples.concurrency.virtualthread;
 
 public class VirtualThreadExample1 {
     public static void main(String[] args) {
