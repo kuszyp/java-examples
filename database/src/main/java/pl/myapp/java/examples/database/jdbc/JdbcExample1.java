@@ -1,4 +1,4 @@
-package pl.myapp.java.examples.jdbc;
+package pl.myapp.java.examples.database.jdbc;
 
 import java.sql.*;
 

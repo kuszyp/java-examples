@@ -1,4 +1,4 @@
-package pl.myapp.java.examples.springData;
+package pl.myapp.java.examples.database.springData;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

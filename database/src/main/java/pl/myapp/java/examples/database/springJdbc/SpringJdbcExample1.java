@@ -1,4 +1,4 @@
-package pl.myapp.java.examples.springJdbc;
+package pl.myapp.java.examples.database.springJdbc;
 
 import java.util.List;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

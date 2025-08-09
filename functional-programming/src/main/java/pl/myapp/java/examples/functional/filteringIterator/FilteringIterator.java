@@ -1,4 +1,4 @@
-package pl.myapp.java.code;
+package pl.myapp.java.examples.functional.filteringIterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

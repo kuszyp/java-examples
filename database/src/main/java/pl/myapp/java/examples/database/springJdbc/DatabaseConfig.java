@@ -1,4 +1,4 @@
-package pl.myapp.java.examples.springJdbc;
+package pl.myapp.java.examples.database.springJdbc;
 
 import javax.sql.DataSource;
 import org.springframework.context.annotation.Bean;

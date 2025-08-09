@@ -1,4 +1,4 @@
-package pl.myapp.java.examples.springData;
+package pl.myapp.java.examples.database.springData;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
