@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: update package names and add unit test for FilteringIterator">
-      <change afterPath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/streamApi/MapMultiExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/streamApi/MapMultiExampleSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: add mapMulti() example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/filteringIterator/FilteringIteratorSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/filteringIterator/FilteringIteratorSpec.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754716817286</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="chore: add mapMulti() example">
+      <option name="closed" value="true" />
+      <created>1754947395465</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754947395465</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +298,7 @@
     <MESSAGE value="docs: add README draft with toc" />
     <MESSAGE value="chore: replace maven with gradle and setup project build" />
     <MESSAGE value="chore: update package names and add unit test for FilteringIterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update package names and add unit test for FilteringIterator" />
+    <MESSAGE value="chore: add mapMulti() example" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add mapMulti() example" />
   </component>
 </project>
