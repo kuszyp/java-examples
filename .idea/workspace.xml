@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: replace maven with gradle and setup project build">
-      <change afterPath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/filteringIterator/FilteringIteratorSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: update package names and add unit test for FilteringIterator">
+      <change afterPath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/streamApi/MapMultiExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/streamApi/MapMultiExampleSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/jdbc/JdbcExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/database/jdbc/JdbcExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springData/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/database/springData/DatabaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springData/SpringDataJpaExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/database/springData/SpringDataJpaExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springData/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/database/springData/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springData/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/database/springData/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springJdbc/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/database/springJdbc/DatabaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springJdbc/SpringJdbcExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/database/springJdbc/SpringJdbcExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springJdbc/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/database/springJdbc/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springJdbc/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/database/springJdbc/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/filteringIterator/FilteringIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/filteringIterator/FilteringIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/filteringIterator/FilteringIteratorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/filteringIterator/FilteringIteratorSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/filteringIterator/FilteringIteratorSpec.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +129,7 @@
     "Application.ThreadExample8.executor": "Run",
     "Application.ThreadExample9.executor": "Run",
     "Application.VirtualThreadExample1.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.FilteringIteratorSpec.executor": "Run",
     "Gradle.java-examples:database [:database:pl.myapp.java.examples.jdbc.JdbcExample1.main()].executor": "Run",
     "Gradle.java-examples:database [:database:pl.myapp.java.examples.springData.SpringDataJpaExample1.main()].executor": "Run",
@@ -154,7 +147,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "google-java-format.settings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -264,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754592924276</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="chore: update package names and add unit test for FilteringIterator">
+      <option name="closed" value="true" />
+      <created>1754716817286</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754716817286</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +293,7 @@
     <MESSAGE value="chore: project refactor to use Gradle instead of Maven" />
     <MESSAGE value="docs: add README draft with toc" />
     <MESSAGE value="chore: replace maven with gradle and setup project build" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: replace maven with gradle and setup project build" />
+    <MESSAGE value="chore: update package names and add unit test for FilteringIterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update package names and add unit test for FilteringIterator" />
   </component>
 </project>

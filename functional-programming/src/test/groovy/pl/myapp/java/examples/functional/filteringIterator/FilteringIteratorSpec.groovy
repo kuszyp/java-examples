@@ -3,6 +3,7 @@ package pl.myapp.java.examples.functional.filteringIterator
 import spock.lang.Specification
 
 class FilteringIteratorSpec extends Specification {
+
     def "should filter elements from the iterator and contain only even numbers"() {
         given:
         def numbers = [1, 2, 3, 4, 5, 6].iterator()
