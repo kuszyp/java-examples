@@ -65,7 +65,8 @@ can be unchanged or replaced by other elements. This means that each element fro
 
 The `mapMulti()` intermediate operation is useful when we have to replace only few elements from the stream. This is
 formulated in the official documentation as follows: `When replacing each element with a small (possibly zero) number of
-elements`.
+elements. Using this method avoids the overhead of creating a new Stream instance for every group of result elements, as
+required by **flatMap**`.
 
 ## Contact
 
