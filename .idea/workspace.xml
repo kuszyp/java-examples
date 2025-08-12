@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: add mapMulti() example">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/streamApi/MapMultiExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/streamApi/MapMultiExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/streamApi/MapMultiExampleSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/streamApi/MapMultiExampleSpec.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +128,8 @@
     "Application.VirtualThreadExample1.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.FilteringIteratorSpec.executor": "Run",
+    "Gradle.MapMultiExampleSpec.should filter out even integers and double their value.executor": "Debug",
+    "Gradle.MapMultiExampleSpec.should flatten Author - Book one-to-many relationship and return list of Bookshelf.executor": "Run",
     "Gradle.java-examples:database [:database:pl.myapp.java.examples.jdbc.JdbcExample1.main()].executor": "Run",
     "Gradle.java-examples:database [:database:pl.myapp.java.examples.springData.SpringDataJpaExample1.main()].executor": "Run",
     "Gradle.java-examples:database [:database:pl.myapp.java.examples.springJdbc.SpringJdbcExample1.main()].executor": "Run",
@@ -163,7 +167,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.MapMultiExampleSpec.should flatten Author - Book one-to-many relationship and return list of Bookshelf">
     <configuration name="FilteringIteratorSpec" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -188,6 +192,54 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="MapMultiExampleSpec.should filter out even integers and double their value" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":functional-programming:test" />
+            <option value="--tests" />
+            <option value="&quot;pl.myapp.java.examples.functional.streamApi.MapMultiExampleSpec.should filter out even integers and double their value&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MapMultiExampleSpec.should flatten Author - Book one-to-many relationship and return list of Bookshelf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":functional-programming:test" />
+            <option value="--tests" />
+            <option value="&quot;pl.myapp.java.examples.functional.streamApi.MapMultiExampleSpec.should flatten Author - Book one-to-many relationship and return list of Bookshelf&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,6 +251,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MapMultiExampleSpec.should flatten Author - Book one-to-many relationship and return list of Bookshelf" />
+        <item itemvalue="Gradle.MapMultiExampleSpec.should filter out even integers and double their value" />
         <item itemvalue="Gradle.FilteringIteratorSpec" />
       </list>
     </recent_temporary>
