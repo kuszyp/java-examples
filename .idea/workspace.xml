@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: add mapMulti() example">
+    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: add mapMulti() example with flatten one-to-many relation">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/streamApi/MapMultiExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/streamApi/MapMultiExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/streamApi/MapMultiExampleSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/streamApi/MapMultiExampleSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SharedMonitorObjectMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SharedMonitorObjectMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SyncCounterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SyncCounterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedExchanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedExchanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional-programming/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgramming/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/filteringIterator/FilteringIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgramming/src/main/java/pl/myapp/java/examples/functional/filteringIterator/FilteringIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/streamApi/MapMultiExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgramming/src/main/java/pl/myapp/java/examples/functional/streams/MapMultiExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/filteringIterator/FilteringIteratorSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgramming/src/test/groovy/pl/myapp/java/examples/functional/filteringIterator/FilteringIteratorSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/streamApi/MapMultiExampleSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgramming/src/test/groovy/pl/myapp/java/examples/functional/streams/MapMultiExampleSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +156,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "google-java-format.settings"
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -322,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754947395465</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="chore: add mapMulti() example with flatten one-to-many relation">
+      <option name="closed" value="true" />
+      <created>1754980101726</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754980101726</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,6 +370,7 @@
     <MESSAGE value="chore: replace maven with gradle and setup project build" />
     <MESSAGE value="chore: update package names and add unit test for FilteringIterator" />
     <MESSAGE value="chore: add mapMulti() example" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: add mapMulti() example" />
+    <MESSAGE value="chore: add mapMulti() example with flatten one-to-many relation" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add mapMulti() example with flatten one-to-many relation" />
   </component>
 </project>

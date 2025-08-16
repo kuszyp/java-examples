@@ -14,4 +14,4 @@ rootProject.name = 'JavaExamples'
 
 include('concurrency')
 include('database')
-include('functional-programming')
+include('functionalProgramming')

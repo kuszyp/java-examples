@@ -1,14 +1,15 @@
-package pl.myapp.java.examples.functional.streamApi
+package pl.myapp.java.examples.functional.streams
+
 
 import spock.lang.Specification
 import spock.lang.Subject
 
 import java.time.LocalDate
 
-class MapMultiExampleSpec extends Specification {
+class MapMultiSpec extends Specification {
 
     @Subject
-    MapMultiExample mapMultiExample = new MapMultiExample()
+    MapMulti mapMultiExample = new MapMulti()
 
     def "should filter out even integers and double their value"() {
         given:
@@ -30,13 +31,13 @@ class MapMultiExampleSpec extends Specification {
 
     def "should flatten Author - Book one-to-many relationship and return list of Bookshelf"() {
         given:
-        def book1 = new MapMultiExample.Book('First Book Title', LocalDate.parse('2023-04-17'))
-        def book2 = new MapMultiExample.Book('Second Book Title', LocalDate.parse('2011-10-25'))
-        def book3 = new MapMultiExample.Book('Third Book Title', LocalDate.parse('2015-01-01'))
-        def book4 = new MapMultiExample.Book('Fourth Book Title', LocalDate.parse('2020-12-31'))
-        def author1 = new MapMultiExample.Author('Author One', [book1, book2])
-        def author2 = new MapMultiExample.Author('Author Two', [book3])
-        def author3 = new MapMultiExample.Author('Author Three', [book4])
+        def book1 = new MapMulti.Book('First Book Title', LocalDate.parse('2023-04-17'))
+        def book2 = new MapMulti.Book('Second Book Title', LocalDate.parse('2011-10-25'))
+        def book3 = new MapMulti.Book('Third Book Title', LocalDate.parse('2015-01-01'))
+        def book4 = new MapMulti.Book('Fourth Book Title', LocalDate.parse('2020-12-31'))
+        def author1 = new MapMulti.Author('Author One', [book1, book2])
+        def author2 = new MapMulti.Author('Author Two', [book3])
+        def author3 = new MapMulti.Author('Author Three', [book4])
 
         when:
         def result = mapMultiExample.bookshelfClassic([author1, author2, author3])

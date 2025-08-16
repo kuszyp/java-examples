@@ -1,9 +1,9 @@
-package pl.myapp.java.examples.functional.streamApi;
+package pl.myapp.java.examples.functional.streams;
 
 import java.time.LocalDate;
 import java.util.List;
 
-public final class MapMultiExample {
+public final class MapMulti {
 
     /*
      * The goal is to filter even integers and double their value.
@@ -27,15 +27,6 @@ public final class MapMultiExample {
                 .toList();
     }
 
-    /*
-     * The mapMulti is pretty similar to the well-known flatMap(), which is useful to flatten a nested `Stream<Stream<R>>` model.
-     * In the example below, we have Book record and Author record. There is a relation one-to-many between Author and Book.
-     * The goal is to convert above one-to-many model to the flat one represented by a Bookshelf record.
-     */
-    record Book(String title, LocalDate published) { }
-    record Author(String name, List<Book> books) { }
-    record Bookshelf(String author, String book) { }
-
     List<Bookshelf> bookshelfClassic(List<Author> authors) {
         return authors.stream()
                 .flatMap(author -> author.books().stream()
@@ -54,4 +45,15 @@ public final class MapMultiExample {
                     }
                 }).toList();
     }
+
+    /*
+     * The mapMulti is pretty similar to the well-known flatMap(), which is useful to flatten a nested `Stream<Stream<R>>` model.
+     * In the example below, we have Book record and Author record. There is a relation one-to-many between Author and Book.
+     * The goal is to convert above one-to-many model to the flat one represented by a Bookshelf record.
+     */
+    record Book(String title, LocalDate published) { }
+
+    record Author(String name, List<Book> books) { }
+
+    record Bookshelf(String author, String book) { }
 }
