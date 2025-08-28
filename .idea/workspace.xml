@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: add mapMulti() example with flatten one-to-many relation">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="chore: cleaning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SharedMonitorObjectMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SharedMonitorObjectMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SyncCounterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SyncCounterMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedExchanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedExchanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/main/java/pl/myapp/java/examples.concurrency/synchronize/SynchronizedLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-programming/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgramming/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/filteringIterator/FilteringIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgramming/src/main/java/pl/myapp/java/examples/functional/filteringIterator/FilteringIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-programming/src/main/java/pl/myapp/java/examples/functional/streamApi/MapMultiExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgramming/src/main/java/pl/myapp/java/examples/functional/streams/MapMultiExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/filteringIterator/FilteringIteratorSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgramming/src/test/groovy/pl/myapp/java/examples/functional/filteringIterator/FilteringIteratorSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-programming/src/test/groovy/pl/myapp/java/examples/functional/streamApi/MapMultiExampleSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/functionalProgramming/src/test/groovy/pl/myapp/java/examples/functional/streams/MapMultiExampleSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,48 +106,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FilteringIteratorExample.executor": "Debug",
-    "Application.JdbcExample.executor": "Run",
-    "Application.JdbcExample1.executor": "Run",
-    "Application.SeparateObjects.executor": "Run",
-    "Application.SharedObjects.executor": "Run",
-    "Application.SpringDataJdbcExample1.executor": "Debug",
-    "Application.SpringDataJpaExample1.executor": "Debug",
-    "Application.SpringJdbcExample1.executor": "Run",
-    "Application.SyncCounterMain.executor": "Run",
-    "Application.SynchronizedExchangerMain.executor": "Run",
-    "Application.ThreadExample.executor": "Run",
-    "Application.ThreadExample10.executor": "Run",
-    "Application.ThreadExample2.executor": "Run",
-    "Application.ThreadExample7.executor": "Run",
-    "Application.ThreadExample8.executor": "Run",
-    "Application.ThreadExample9.executor": "Run",
-    "Application.VirtualThreadExample1.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.FilteringIteratorSpec.executor": "Run",
-    "Gradle.MapMultiExampleSpec.should filter out even integers and double their value.executor": "Debug",
-    "Gradle.MapMultiExampleSpec.should flatten Author - Book one-to-many relationship and return list of Bookshelf.executor": "Run",
-    "Gradle.java-examples:database [:database:pl.myapp.java.examples.jdbc.JdbcExample1.main()].executor": "Run",
-    "Gradle.java-examples:database [:database:pl.myapp.java.examples.springData.SpringDataJpaExample1.main()].executor": "Run",
-    "Gradle.java-examples:database [:database:pl.myapp.java.examples.springJdbc.SpringJdbcExample1.main()].executor": "Run",
-    "Maven.java-examples [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.java-examples [test].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHELLCHECK.PATH": "/home/kuszyp/.local/share/JetBrains/IdeaIC2025.1/Shell Script/shellcheck",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "kotlin.migration.detection.enabled": "false",
-    "last_opened_file_path": "/home/kuszyp/github/kuszyp/java-examples/database/src/main/java/pl/myapp/java/examples/springJdbc",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor.code.editing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FilteringIteratorExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.JdbcExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JdbcExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeparateObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SharedObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringDataJdbcExample1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SpringDataJpaExample1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SpringJdbcExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SyncCounterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedExchangerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualThreadExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FilteringIteratorSpec.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MapMultiExampleSpec.should filter out even integers and double their value.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.MapMultiExampleSpec.should flatten Author - Book one-to-many relationship and return list of Bookshelf.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-examples:database [:database:pl.myapp.java.examples.jdbc.JdbcExample1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-examples:database [:database:pl.myapp.java.examples.springData.SpringDataJpaExample1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-examples:database [:database:pl.myapp.java.examples.springJdbc.SpringJdbcExample1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.java-examples [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.java-examples [test].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/home/kuszyp/.local/share/JetBrains/IdeaIC2025.1/Shell Script/shellcheck&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;kotlin.migration.detection.enabled&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kuszyp/github/kuszyp/java-examples/database/src/main/java/pl/myapp/java/examples/springJdbc&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/database/src/main/java/pl/myapp/java/examples/springJdbc" />
@@ -340,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754980101726</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="chore: cleaning">
+      <option name="closed" value="true" />
+      <created>1755343798210</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755343798210</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,6 +368,7 @@
     <MESSAGE value="chore: update package names and add unit test for FilteringIterator" />
     <MESSAGE value="chore: add mapMulti() example" />
     <MESSAGE value="chore: add mapMulti() example with flatten one-to-many relation" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: add mapMulti() example with flatten one-to-many relation" />
+    <MESSAGE value="chore: cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: cleaning" />
   </component>
 </project>
