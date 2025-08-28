@@ -148,6 +148,73 @@ graph TD;
   H-->K["Leaf (depth=4)"]
 ```
 
+#### Full Binary Tree
+
+```mermaid
+graph TD;
+  R[56]-->30;
+  R-->70;
+  30-->22;
+  30-->40;
+  70-->60;
+  70-->95;
+  60-->65;
+  60-->67;
+  65-->63;
+  65-->66;
+```
+
+A **full binary tree** is a tree where all nodes have either no children or two children.
+
+#### Complete Binary Tree
+
+```mermaid
+graph TD;
+  R[56]-->30;
+  R-->70;
+  30-->22;
+  22-->21;
+  22-->23;
+  30-->40;
+  40-->35;
+  40-->45;
+  70-->60;
+  70-->95;
+  60-->65;
+```
+
+**Complete binary tree** is a tree where all levels, except possibly the last one, are completely filled. If the last level
+is not completely filled, then its nodes are arranges as far to the left as possible.
+
+#### Perfect Binary Tree
+
+```mermaid
+graph TD;
+  R[56]-->30;
+  R-->70;
+  30-->22;
+  22-->20;
+  22-->25;
+  30-->40;
+  40-->35;
+  40-->45;
+  70-->60;
+  70-->95;
+  60-->65;
+  60-->67;
+  95-->90;
+  95-->100;
+```
+
+A _full binary tree_ where all leaves have the same depth is a **perfect binary tree**. A perfect binary tree of height
+$h$ has $n=2^{h+1}-1$ nodes and $l=2^h$ leaves.
+
+The height of $3$ gives $15$ nodes and $8$ of them are leaves.
+
+#### Balanced Binary Tree
+
+In a balanced binary tree each node's left and right subtrees differ in height by at most one.
+
 ## Contact
 
 You can reach me at [github.com/kuszyp](https://github.com/kuszyp) or mail me at [github[at]myapp.pl](mailto:github@myapp.pl).
