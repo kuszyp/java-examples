@@ -148,6 +148,12 @@ graph TD;
   H-->K["Leaf (depth=4)"]
 ```
 
+> **Binary Tree** is a **non-linear** and **hierarchical** data structure where each node has at most two children
+> referred to as the **left child** and the **right child**. The top most node in a binary tree is called the **root**,
+> and the bottom most nodes are called **leaves**.
+
+---
+
 #### Full Binary Tree
 
 ```mermaid
@@ -165,6 +171,8 @@ graph TD;
 ```
 
 A **full binary tree** is a tree where all nodes have either no children or two children.
+
+---
 
 #### Complete Binary Tree
 
