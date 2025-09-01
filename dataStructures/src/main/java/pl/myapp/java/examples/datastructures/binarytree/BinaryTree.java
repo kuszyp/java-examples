@@ -1,7 +1,9 @@
 package pl.myapp.java.examples.datastructures.binarytree;
 
 public interface BinaryTree {
-  void add(int data);
+  void add(int value);
+
+  boolean containsNode(int value);
 }
 
 class BaseBinaryTree implements BinaryTree {
@@ -12,8 +14,13 @@ class BaseBinaryTree implements BinaryTree {
   }
 
   @Override
-  public void add(int data) {
-    root = addRecursive(root, data);
+  public void add(int value) {
+    root = addRecursive(root, value);
+  }
+
+  @Override
+  public boolean containsNode(int value) {
+    return containsNodeRecursive(root, value);
   }
 
   private Node addRecursive(Node current, int value) {
@@ -28,5 +35,18 @@ class BaseBinaryTree implements BinaryTree {
     }
 
     return current;
+  }
+
+  private boolean containsNodeRecursive(Node current, int value) {
+    if (current == null) {
+      return false;
+    }
+
+    if (current.value == value) {
+      return true;
+    }
+    return value < current.value
+        ? containsNodeRecursive(current.left, value)
+        : containsNodeRecursive(current.right, value);
   }
 }
