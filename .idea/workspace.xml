@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="draft: delete node from binary tree">
+    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="feat: delete node from binary tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructures/src/main/java/pl/myapp/java/examples/datastructures/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/src/main/java/pl/myapp/java/examples/datastructures/binarytree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/src/test/groovy/pl/myapp/java/examples/datastructures/binarytree/BinaryTreeSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/src/test/groovy/pl/myapp/java/examples/datastructures/binarytree/BinaryTreeSpec.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756720536848</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: delete node from binary tree">
+      <option name="closed" value="true" />
+      <created>1756722342924</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1756722342924</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -455,6 +462,7 @@
     <MESSAGE value="feat: add data structures submodule with base binary tree implementation" />
     <MESSAGE value="feat: add search in binary tree" />
     <MESSAGE value="draft: delete node from binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="draft: delete node from binary tree" />
+    <MESSAGE value="feat: delete node from binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: delete node from binary tree" />
   </component>
 </project>

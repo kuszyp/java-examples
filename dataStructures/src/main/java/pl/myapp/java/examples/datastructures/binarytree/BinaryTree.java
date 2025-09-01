@@ -74,21 +74,23 @@ class BaseBinaryTree implements BinaryTree {
       if (current.left == null) {
         return current.right;
       }
-      // a node has hwo children
+      // a node has two children
       int smallestValue = findSmallestValue(current.right);
       current.value = smallestValue;
       current.right = deleteRecursive(current.right, smallestValue);
       return current;
     }
 
+    // no value found, search further
     if (value < current.value) {
       current.left = deleteRecursive(current.left, value);
-    } else if (value > current.value){
+    } else {
       current.right = deleteRecursive(current.right, value);
     }
     return current;
   }
 
+  // smallest value is the left most node value
   private int findSmallestValue(Node root) {
     return root.left == null ? root.value : findSmallestValue(root.left);
   }
