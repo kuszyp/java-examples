@@ -44,4 +44,24 @@ class BinaryTreeSpec extends Specification {
     10    | false
     19    | false
   }
+
+  @Rollup
+  def "should properly delete node for given value"() {
+    given:
+    BinaryTree tree = new BaseBinaryTree()
+    [12, 8, 5, 4, 11, 18, 17].each { tree.add(it) }
+    assert tree.containsNode(value) == contains
+
+    when:
+    tree.delete(value)
+
+    then:
+    assert !tree.containsNode(value)
+
+    where:
+    value | contains
+    8     | true
+    17    | true
+    0     | false
+  }
 }

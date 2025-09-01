@@ -26,7 +26,9 @@ class BaseBinaryTree implements BinaryTree {
   }
 
   @Override
-  public void delete(int value) {}
+  public void delete(int value) {
+    root = deleteRecursive(root, value);
+  }
 
   private Node addRecursive(Node current, int value) {
     if (current == null) {
@@ -66,9 +68,17 @@ class BaseBinaryTree implements BinaryTree {
         return null;
       }
       // a node has one child
-
+      if (current.right == null) {
+        return current.left;
+      }
+      if (current.left == null) {
+        return current.right;
+      }
       // a node has hwo children
-
+      int smallestValue = findSmallestValue(current.right);
+      current.value = smallestValue;
+      current.right = deleteRecursive(current.right, smallestValue);
+      return current;
     }
 
     if (value < current.value) {
@@ -77,5 +87,9 @@ class BaseBinaryTree implements BinaryTree {
       current.right = deleteRecursive(current.right, value);
     }
     return current;
+  }
+
+  private int findSmallestValue(Node root) {
+    return root.left == null ? root.value : findSmallestValue(root.left);
   }
 }

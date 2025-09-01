@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="feat: add search in binary tree">
+    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="draft: delete node from binary tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructures/src/main/java/pl/myapp/java/examples/datastructures/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/src/main/java/pl/myapp/java/examples/datastructures/binarytree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructures/src/test/groovy/pl/myapp/java/examples/datastructures/binarytree/BinaryTreeSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/src/test/groovy/pl/myapp/java/examples/datastructures/binarytree/BinaryTreeSpec.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +129,7 @@
     "Application.VirtualThreadExample1.executor": "Run",
     "Gradle.BinaryTreeSpec.executor": "Run",
     "Gradle.BinaryTreeSpec.should properly define binary tree and display each node.executor": "Debug",
+    "Gradle.BinaryTreeSpec.should properly delete node for given value.executor": "Run",
     "Gradle.BinaryTreeSpec.should return true when node with given value exists and false if is do not exists in the tree.executor": "Debug",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.FilteringIteratorSpec.executor": "Run",
@@ -173,7 +175,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinaryTreeSpec.should return true when node with given value exists and false if is do not exists in the tree">
+  <component name="RunManager" selected="Gradle.BinaryTreeSpec.should properly delete node for given value">
     <configuration name="BinaryTreeSpec" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -222,6 +224,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="BinaryTreeSpec.should properly delete node for given value" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":dataStructures:test" />
+            <option value="--tests" />
+            <option value="&quot;pl.myapp.java.examples.datastructures.binarytree.BinaryTreeSpec.should properly delete node for given value&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="BinaryTreeSpec.should return true when node with given value exists and false if is do not exists in the tree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -236,30 +262,6 @@
             <option value=":dataStructures:test" />
             <option value="--tests" />
             <option value="&quot;pl.myapp.java.examples.datastructures.binarytree.BinaryTreeSpec.should return true when node with given value exists and false if is do not exists in the tree&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MapMultiExampleSpec.should filter out even integers and double their value" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":functional-programming:test" />
-            <option value="--tests" />
-            <option value="&quot;pl.myapp.java.examples.functional.streamApi.MapMultiExampleSpec.should filter out even integers and double their value&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -305,11 +307,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinaryTreeSpec.should properly delete node for given value" />
         <item itemvalue="Gradle.BinaryTreeSpec.should return true when node with given value exists and false if is do not exists in the tree" />
         <item itemvalue="Gradle.BinaryTreeSpec" />
         <item itemvalue="Gradle.BinaryTreeSpec.should properly define binary tree and display each node" />
         <item itemvalue="Gradle.MapMultiExampleSpec.should flatten Author - Book one-to-many relationship and return list of Bookshelf" />
-        <item itemvalue="Gradle.MapMultiExampleSpec.should filter out even integers and double their value" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756719798737</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="draft: delete node from binary tree">
+      <option name="closed" value="true" />
+      <created>1756720536848</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756720536848</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,6 +454,7 @@
     <MESSAGE value="chore: cleaning" />
     <MESSAGE value="feat: add data structures submodule with base binary tree implementation" />
     <MESSAGE value="feat: add search in binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add search in binary tree" />
+    <MESSAGE value="draft: delete node from binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="draft: delete node from binary tree" />
   </component>
 </project>
