@@ -4,6 +4,8 @@ public interface BinaryTree {
   void add(int value);
 
   boolean containsNode(int value);
+
+  void delete(int value);
 }
 
 class BaseBinaryTree implements BinaryTree {
@@ -22,6 +24,9 @@ class BaseBinaryTree implements BinaryTree {
   public boolean containsNode(int value) {
     return containsNodeRecursive(root, value);
   }
+
+  @Override
+  public void delete(int value) {}
 
   private Node addRecursive(Node current, int value) {
     if (current == null) {
@@ -48,5 +53,29 @@ class BaseBinaryTree implements BinaryTree {
     return value < current.value
         ? containsNodeRecursive(current.left, value)
         : containsNodeRecursive(current.right, value);
+  }
+
+  private Node deleteRecursive(Node current, int value) {
+    if (current == null) {
+      return null;
+    }
+
+    if (current.value == value) {
+      // a node has no children
+      if (current.left == null && current.right == null) {
+        return null;
+      }
+      // a node has one child
+
+      // a node has hwo children
+
+    }
+
+    if (value < current.value) {
+      current.left = deleteRecursive(current.left, value);
+    } else if (value > current.value){
+      current.right = deleteRecursive(current.right, value);
+    }
+    return current;
   }
 }

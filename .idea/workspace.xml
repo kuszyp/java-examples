@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="feat: add data structures submodule with base binary tree implementation">
+    <list default="true" id="82cb5486-bc9a-49a7-a1e7-68d99929f557" name="Changes" comment="feat: add search in binary tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructures/src/main/java/pl/myapp/java/examples/datastructures/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/src/main/java/pl/myapp/java/examples/datastructures/binarytree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/src/test/groovy/pl/myapp/java/examples/datastructures/binarytree/BinaryTreeSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/src/test/groovy/pl/myapp/java/examples/datastructures/binarytree/BinaryTreeSpec.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +126,9 @@
     "Application.ThreadExample8.executor": "Run",
     "Application.ThreadExample9.executor": "Run",
     "Application.VirtualThreadExample1.executor": "Run",
-    "Gradle.BinaryTreeSpec.executor": "Debug",
+    "Gradle.BinaryTreeSpec.executor": "Run",
     "Gradle.BinaryTreeSpec.should properly define binary tree and display each node.executor": "Debug",
+    "Gradle.BinaryTreeSpec.should return true when node with given value exists and false if is do not exists in the tree.executor": "Debug",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.FilteringIteratorSpec.executor": "Run",
     "Gradle.MapMultiExampleSpec.should filter out even integers and double their value.executor": "Debug",
@@ -402,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756480429422</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: add search in binary tree">
+      <option name="closed" value="true" />
+      <created>1756719798737</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1756719798737</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,6 +443,7 @@
     <MESSAGE value="chore: add mapMulti() example with flatten one-to-many relation" />
     <MESSAGE value="chore: cleaning" />
     <MESSAGE value="feat: add data structures submodule with base binary tree implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add data structures submodule with base binary tree implementation" />
+    <MESSAGE value="feat: add search in binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add search in binary tree" />
   </component>
 </project>
